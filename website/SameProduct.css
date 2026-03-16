@@ -1,0 +1,176 @@
+.SameProduct {
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    padding: 4rem 10rem;
+}
+
+.SameProduct .inner-SameProduct {
+    height: 100%;
+    background-color: #fff;
+    padding: 5.5rem 6.5rem;
+}
+.btn-same {
+    background: #ff531e;
+    color: #fff;
+    font-size: 0.9rem;
+    padding: 0.4rem 4rem ;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    border-radius: 2rem;
+}
+.safe-checkout-box{
+    border:1px solid #dcdcdc;
+    border-radius:6px;
+    margin-top:3rem;
+    padding:30px 20px 20px;
+    position:relative;
+    text-align:center;
+}
+
+.checkout-title{
+    position:absolute;
+    top:-12px;
+    left:50%;
+    transform:translateX(-50%);
+    background:#fff;
+    padding: 0px 2px;
+    font-weight:600;
+    color:#595757;
+    font-size:0.9rem;
+}
+
+.payment-icons{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+}
+
+.payment-icons img{
+    height:25px;
+}
+.btn-same:hover {
+    background: #ff7d56;
+    color: #fff;
+}
+ .Same-card-image img:hover{
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.1);
+}
+.Same-card-image {
+    overflow: hidden;
+}
+.Same-card-image{
+    height: 32rem;
+}
+
+.Same-card-image .card-discount{
+    color: #9c9ba3;
+    font-size: 0.85rem;
+    padding: 0.2rem 0.7rem;
+    font-family: 'Montserrat',sans-serif;
+    background-color: #ffff;
+    box-shadow: 0px 3px 10px #52505E;
+    border-radius: 10rem;
+} 
+.SameDescription div h4{
+     display: inline;
+     font-size: 1rem;
+    color: #52505E;
+    font-weight: 800;
+     font-family: 'Montserrat',sans-serif;
+}
+.SameDescription div{
+    padding: 0.2rem 0rem;
+    display: inline;
+    border-top: 3px solid black;
+}
+.SameDescription p{
+     font-size: 1rem;
+    color: #52505E;
+     font-family: 'Montserrat',sans-serif;
+}
+#inner-Samecontent h4{
+    font-family: 'Oswald',sans-serif;
+}
+#inner-Samecontent del{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 1.4rem;
+    color: #9c9ba3;
+}
+#inner-Samecontent span{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 800;
+    font-size: 1.4rem;
+    color: #52505E;
+}
+#inner-Samecontent p{
+        font-family: 'Montserrat',sans-serif;
+    font-size: 1rem;
+    color: #727272;
+}
+
+@media(max-width: 1024px) {
+    .SameProduct {
+   
+    padding: 2rem 2rem;
+}
+
+.SameProduct .inner-SameProduct {
+ 
+    padding: 2rem 2rem;
+}
+.btn-same {
+    font-size: 0.75rem;
+}
+.checkout-title{
+    padding: 0px;
+}
+}
+@media(max-width:768px) {
+.SameProduct .inner-SameProduct {
+ 
+    padding: 3rem 3rem;
+}
+
+}
+@media(max-width: 567px) {
+ .SameProduct {
+    padding: 1rem 1rem;
+}
+
+.SameProduct .inner-SameProduct {
+    padding: 1rem 1rem;
+}
+.btn-same {
+    font-size: 0.5rem;
+}
+.checkout-title{
+ 
+   
+    font-size:0.8rem;
+}
+
+}
+@media(max-width: 425px) {
+ .SameProduct {
+    padding: 1rem 1rem;
+}
+
+.SameProduct .inner-SameProduct {
+    padding: 1rem 1rem;
+}
+.btn-same {
+    background: #ff531e;
+    color: #fff;
+    font-size: 0.5rem;
+    padding: 0.4rem 2rem ;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    border-radius: 2rem;
+}
+.checkout-title{
+   padding: 1px 0px;
+    font-size:0.75rem;
+}
+
+}

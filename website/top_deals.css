@@ -1,0 +1,282 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+::selection {
+    background-color: #fb5832;
+    color: #131316;
+    font-weight: 600;
+}
+
+.Hero_list a {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.78rem;
+    font-weight: 600;
+    color:white;
+}
+.Hero_list{
+ padding: 0rem 0.5rem;
+}
+
+.hero_section {
+    position: relative;
+    height: 76vh;
+    background-image: url("../shopall_image/sports-wear-store-deals-bg-img.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.hero_section::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+}
+.navbar-toggler {
+    background-color: #fb5832 !important;
+    font-size: none !important;
+    padding: 0.4rem 0.4rem;
+}
+.navbar-toggler-icon{
+  filter:invert(1);
+}
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+.navbar {
+    padding: 0.8rem 0.8rem;
+}
+
+.nav-link.active,
+.nav-link:hover {
+    color: #fb5732cc !important;
+}
+.hero_content {
+    height: 88%;
+    color: white;
+    position: absolute;
+    z-index: 10;
+}
+
+.hero_heading {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 5.45rem;
+    font-weight: 600;
+}
+
+.hero_paragraph {
+    font-weight: 800;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.deal-img-section1{
+    height: 34rem;
+}
+.deal-img-section2{
+    height: 32rem;
+}
+.deal-card{
+    padding: 2rem;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.deal-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.2);
+}
+.deal-content{
+    width: 85%;
+    position: absolute;
+    z-index: 10;
+    color: white;
+    font-family: 'Oswald',sans-serif;
+}
+.deal-content img{
+    padding-bottom: 9rem;
+}
+.deal-content h1 {
+  font-size: 6.8rem;
+  font-weight: 700;
+}
+.deal-content h3{
+    font-size: 2rem;
+}
+.deal-content a{
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+}
+.discount {
+  letter-spacing: 2px;
+  font-size: 0.9rem;
+}
+
+.line {
+  width: 5rem;
+  height: 0.25rem;
+  background: white;
+  margin: 15px 0;
+}
+.main-heading {
+  font-size: 3rem;
+  font-weight: 600;
+  font-family: 'Oswald',sans-serif;
+}
+
+.center-line {
+  width: 5rem;
+  height: 0.25rem;
+  background: #ff4d30;
+}
+.deal1{
+   background-image: url("../shopall_image/sports-wear-store-top-deals-img-1.jpg");
+}
+.deal2{
+   background-image: url("../shopall_image/sports-wear-store-top-deals-img-2.jpg");
+}
+.deal3{
+   background-image: url("../shopall_image/sports-wear-store-top-deals-img-3.jpg");
+}
+.deal4{
+   background-image: url("../shopall_image/sports-wear-store-top-deals-img-4.jpg");
+}
+.deal5{
+   background-image: url("../shopall_image/sports-wear-store-top-deals-img-5.jpg");
+}
+
+@media(max-width: 1024px){
+  .hero_section{
+    height: 57vh;
+  }
+  .hero_heading{
+    font-size: 4rem;
+  }
+.deal-img-section1{
+    height: 30rem;
+}
+.deal-img-section2{
+    height: 28rem;
+}
+.deal-card{
+    padding: 2rem;
+}
+.deal-content{
+    width: 80%;
+}
+.deal-content img{
+    padding-bottom: 6rem;
+}
+.deal-content h1 {
+  font-size: 5rem;
+  font-weight: 600;
+}
+.discount {
+  font-size: 0.8rem;
+}
+}
+@media(max-width: 991px){
+    .deal-img-section1{
+    height: 25rem;
+}
+.deal-img-section2{
+    height: 24rem;
+}
+.deal-card{
+    padding: 1rem;
+}
+.deal-content{
+    width: 80%;
+}
+.deal-content img{
+    padding-bottom: 7rem;
+}
+.deal-content h1 {
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+.deal-content h3{
+    font-size: 1.5rem;
+}
+.deal-content a{
+    font-size: 1rem;
+}
+.discount {
+  font-size: 0.6rem;
+}
+
+.line {
+  width: 4rem;
+}
+.main-heading {
+  font-size: 2.5rem;
+}
+}
+@media(max-width: 576px){
+    .hero_heading{
+    font-size: 3rem;
+  }
+  .hero_paragraph{
+    font-size: 1.25rem;
+  }
+  .deal-img-section1{
+    height: 70rem;
+}
+.deal-img-section2{
+    height: 40rem;
+}
+.deal-card{
+    padding: 1rem;
+}
+.deal-content{
+    width: 90%;
+}
+.deal-content img{
+    padding-bottom: 3.5rem;
+}
+.deal-img-section1 .deal-content h1 {
+  font-size: 3rem;
+}
+.deal-img-section2 .deal-content h1 {
+  font-size: 2rem;
+}
+.deal-content h3{
+    font-size: 1.5rem;
+}
+.deal-content a{
+    font-size: 0.8rem;
+}
+.line {
+  width: 4rem;
+}
+.main-heading {
+  font-size: 2rem;
+}
+}

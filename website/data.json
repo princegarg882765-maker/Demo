@@ -1,0 +1,170 @@
+{
+"latest_drop":[{
+    "discount": "-11%",
+    "img": "../website_image/sports-wear-store-product-img-007-400x400.jpg",
+    "name": "TEMPOR ID BACKPACK 8L",
+    "oldPrice": "$72.80",
+    "newPrice": "$64.80"
+  },
+  {
+    "discount": "-14%",
+    "img": "../website_image/sports-wear-store-product-img-006-400x400.jpg",
+    "name": "PURUS ELIT HELMET",
+    "oldPrice": "$56.25",
+    "newPrice": "$48.50"
+  },
+  {
+    "discount": "",
+    "img": "../website_image/sports-wear-store-product-img-009-400x400.jpg",
+    "name": "NIBH BACKPACK AUGUE 12L",
+    "oldPrice": "",
+    "newPrice": "$96.50"
+  },
+  {
+    "discount":"-17%",
+    "img":"../website_image/sports-wear-store-product-img-008-300x300.jpg",
+    "name":"TENT MAECENAS PULVINAR ORANGE ",
+    "oldPrice":"$48.24",
+    "newPrice":"$40.00"
+  }
+],
+
+
+"shopall":[
+  {
+    "discount": "-17%",
+    "img": "../shopall_image/sports-wear-store-product-img-003-400x400.jpg",
+    "name": "AC TURPIS YOGA MAT",
+    "oldPrice": "$24.80",
+    "newPrice": "$20.50"
+  },
+  {
+    "discount": "-12%",
+    "img": "../shopall_image/sports-wear-store-product-img-004-400x400.jpg",
+    "name": "CONSEQUAT RUNNING SHOES",
+    "oldPrice": "$64.80",
+    "newPrice": "$56.80"
+  },
+  {
+    "discount": "",
+    "img": "../website_image/sports-wear-store-product-img-009-400x400.jpg",
+    "name": "NIBH BACKPACK AUGUE 12L",
+    "oldPrice": "",
+    "newPrice": "$96.50"
+  },
+  {
+    "discount": "-14%",
+    "img": "../website_image/sports-wear-store-product-img-006-400x400.jpg",
+    "name": "PURUS ELIT HELMET",
+    "oldPrice": "$56.25",
+    "newPrice": "$48.50"
+  },
+  {
+    "discount":"",
+    "img":"../shopall_image/sports-wear-store-product-img-1-400x400.jpg",
+    "name":"SED DOLOR TRAINING SHOES ",
+    "oldPrice":"",
+    "newPrice":"$48.20"
+  },
+
+  {
+    "discount": "-11%",
+    "img": "../website_image/sports-wear-store-product-img-007-400x400.jpg",
+    "name": "TEMPOR ID BACKPACK 8L",
+    "oldPrice": "$72.80",
+    "newPrice": "$64.80"
+  },
+  
+  {
+    "discount": "",
+    "img": "../shopall_image/sports-wear-store-product-img-002-400x400.jpg",
+    "name": "TEMPUS CONS DUMBBELL",
+    "oldPrice": "",
+    "newPrice": "$16.40"
+  },
+  {
+    "discount":"-17%",
+    "img":"../website_image/sports-wear-store-product-img-008-300x300.jpg",
+    "name":"TENT MAECENAS PULVINAR ORANGE ",
+    "oldPrice":"$48.24",
+    "newPrice":"$40.00"
+  },{
+    "discount":"",
+    "img":"../shopall_image/sports-wear-store-product-img-005-400x400.jpg",
+    "name":"VARIUS AC SKI GREEN ",
+    "oldPrice":"",
+    "newPrice":"$128.50"
+  }
+],
+"categorywise":{
+  "men":[
+    {
+    "discount": "-12%",
+    "img": "../shopall_image/sports-wear-store-product-img-004-400x400.jpg",
+    "name": "CONSEQUAT RUNNING SHOES",
+    "oldPrice": "$64.80",
+    "newPrice": "$56.80"
+  },
+  {
+    "discount": "-14%",
+    "img": "../website_image/sports-wear-store-product-img-006-400x400.jpg",
+    "name": "PURUS ELIT HELMET",
+    "oldPrice": "$56.25",
+    "newPrice": "$48.50"
+  },
+  {
+    "discount":"",
+    "img":"../shopall_image/sports-wear-store-product-img-005-400x400.jpg",
+    "name":"VARIUS AC SKI GREEN ",
+    "oldPrice":"",
+    "newPrice":"$128.50"
+  }
+  ],
+  "women":[
+  {
+    "discount":"",
+    "img":"../shopall_image/sports-wear-store-product-img-1-400x400.jpg",
+    "name":"SED DOLOR TRAINING SHOES ",
+    "oldPrice":"",
+    "newPrice":"$48.20"
+  },
+  {
+    "discount": "-11%",
+    "img": "../website_image/sports-wear-store-product-img-007-400x400.jpg",
+    "name": "TEMPOR ID BACKPACK 8L",
+    "oldPrice": "$72.80",
+    "newPrice": "$64.80"
+  }
+  ],
+  "pack_gear":[
+     {
+    "discount": "-17%",
+    "img": "../shopall_image/sports-wear-store-product-img-003-400x400.jpg",
+    "name": "AC TURPIS YOGA MAT",
+    "oldPrice": "$24.80",
+    "newPrice": "$20.50"
+  },
+  {
+    "discount": "",
+    "img": "../website_image/sports-wear-store-product-img-009-400x400.jpg",
+    "name": "NIBH BACKPACK AUGUE 12L",
+    "oldPrice": "",
+    "newPrice": "$96.50"
+  },
+   {
+    "discount": "",
+    "img": "../shopall_image/sports-wear-store-product-img-002-400x400.jpg",
+    "name": "TEMPUS CONS DUMBBELL",
+    "oldPrice": "",
+    "newPrice": "$16.40"
+  },
+  {
+    "discount":"-17%",
+    "img":"../website_image/sports-wear-store-product-img-008-300x300.jpg",
+    "name":"TENT MAECENAS PULVINAR ORANGE ",
+    "oldPrice":"$48.24",
+    "newPrice":"$40.00"
+  }
+  ]
+}
+}

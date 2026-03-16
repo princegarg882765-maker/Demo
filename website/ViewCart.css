@@ -1,0 +1,148 @@
+.View-heading{
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.ViewAllCart{
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    padding: 4rem 8rem;
+}
+.ViewAllCart .innerview {
+    background-color: #fff;
+    height: 100%;
+    padding: 5.5rem 6rem;
+}
+.ViewAllCart div h2 ,.cart-total h3{
+    font-family: 'Oswald', sans-serif;
+}
+.cart-total{
+    height: 22rem;
+    position: sticky;
+    top: 10px;
+}
+.cart-total p, .cart-total table {
+padding: 0.8rem;
+    color: #52505E;
+    font-family: 'Montserrat',sans-serif;
+}
+.cart-total h3{
+    font-weight: 900;
+    font-size: 1.25rem;
+    background-color: #f7f7f7;
+}
+.buy{
+    background-color: #FB5832;
+    border: none;
+    height: 4rem;
+    width: 100%;
+    border-radius: 1.5rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.thead-cart{
+    font-weight: 900;
+    font-size: 1rem;
+     color: #52505E;
+    font-family: 'Montserrat',sans-serif;
+    background-color: #f7f7f7;
+}
+.thead-cart th{
+    padding: 0.9rem 1rem;
+}
+.tbody-cart td{
+    padding: 1rem;
+}
+.thead-cart :first-child{
+    padding-right: 3rem;
+}
+.thead-cart :last-child{
+    padding-right: 2rem;
+}
+@media(max-width: 1024px){
+    .ViewAllCart{
+         padding: 2rem 1rem;
+    }
+    .ViewAllCart .innerview {
+    padding: 4rem 1rem;
+}
+.tbody-cart h6{
+    margin-bottom: 0%;
+}
+}
+@media(max-width: 768px){
+    .ViewAllCart .innerview{
+        padding: 3rem;
+    }
+    .thead-cart{
+          display:none;
+    }
+
+#ViewCart th{
+    display:block;
+    width:100%;
+}
+
+
+
+.tbody-cart{
+    border:1px solid #ddd;
+    margin-bottom:20px;
+    padding:15px;
+}
+
+.tbody-cart td{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    border-bottom:1px solid #eee;
+    padding:10px 1.2rem;
+}
+
+.tbody-cart td::before{
+    font-weight:600;
+    color:#333;
+}
+
+
+.tbody-cart td:nth-child(1)::before{
+    content:"";
+}
+
+
+.tbody-cart td:nth-child(2){
+    justify-content:center;
+}
+
+
+.tbody-cart td:nth-child(3)::before{
+    content:"Product";
+}
+
+.tbody-cart td:nth-child(4)::before{
+    content:"Price";
+}
+
+.tbody-cart td:nth-child(5)::before{
+    content:"Quantity";
+}
+
+.tbody-cart td:nth-child(6)::before{
+    content:"Subtotal";
+}
+
+}
+@media(max-width: 576px){
+    .ViewAllCart{
+    padding: 1rem 0.5rem;
+}
+.ViewAllCart .innerview {
+    padding: 1rem 1.2rem;
+}
+    .tbody-cart h6{
+        font-size: 0.8rem;
+    }
+    .tbody-cart td{
+    padding:10px 0.5rem;
+}
+
+}

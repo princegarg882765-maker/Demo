@@ -1,0 +1,111 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+::selection {
+    background-color: #f75936;
+    color: #131316;
+    font-weight: 600;
+}
+
+.Hero_list a {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: #52505e;
+}
+
+.Hero_list{
+ padding: 0rem 0.5rem;
+}
+.navbar-toggler {
+    background-color: #fb5832 !important;
+    font-size: none !important;
+    padding: 0.4rem 0.4rem;
+}
+
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+.navbar {
+    padding: 0.8rem 0.8rem;
+}
+
+.nav-link.active,
+.nav-link:hover {
+    color: #fb5732cc !important;
+}
+
+.shop-all-headings-icon .shop-heading p,
+.shop-heading a {
+    font-size: 0.9rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #666666;
+}
+
+.shop-all-icon select {
+    border: none;
+    font-size: 1rem;
+    background-color: transparent;
+    color: #777777;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.shop-all-icon select:focus {
+    outline: none;
+    border: 1px dotted #777777;
+}
+
+.Hero_list .nav-link {
+    padding: 0rem 0.8rem !important;
+}
+
+@media(max-width:991px){
+    
+}
+@media(max-width:767px) {
+
+    .shop-all-headings-icon .shop-heading p,
+    .shop-heading a {
+        font-size: 0.85rem;
+    }
+
+    .shop-all-icon select {
+        font-size: 0.95rem;
+    }
+}
+
+@media(max-width:576px) {
+    .navbar-nav {
+        text-align: right;
+    }
+
+    .nav-item a {
+        padding: 0px 0px;
+    }
+    .shop-all-icon select {
+        font-size: 0.8rem;
+    }
+
+    .shop-all-headings-icon .shop-heading p,
+    .shop-heading a {
+        font-size: 0.8rem;
+    }
+}
+@media(max-width:375px) {
+    .navbar-toggler-icon{
+  filter:invert(1);
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+}
+     

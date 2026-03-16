@@ -1,0 +1,64 @@
+.myCart{
+    width: 33.5rem !important;
+}
+.offcanvas-title{
+    font-size: 1rem;
+    color: #131316;
+    font-weight: 400 !important;
+    font-family: 'Montserrat',sans-serif;
+
+}
+.qty-box{
+    border: 1px solid #ddd;
+    width: fit-content;
+}
+
+.qty-btn{
+    border: none;
+    background-color: white;
+    padding: 0px 0.9rem;
+    font-size: 16px;
+}
+.qty-box span{
+    padding: 0.4rem 0rem;
+}
+.remove-btn{
+    border: 1px solid #ddd;
+    background: transparent;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+}
+.cart-button{
+    padding: 0.7rem;
+    color: #fff;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+      background-color: #fb5832;
+      border: none;
+}
+.cart-subtotal{
+    font-size: 1rem;
+    font-family: 'Montserrat',sans-serif;
+    color: #737373;
+}
+.cart-empty-text{
+    font-size: 1rem;
+    font-family: 'Montserrat',sans-serif;
+    color: #737373;
+}
+/* .offcanvas-body{
+    flex: 1;
+    overflow-y: auto;
+} */
+
+/* .border-top{
+    background: #fff;
+}
+
+.btn-dark{
+    border-radius: 30px;
+    padding: 12px;
+} */

@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sports Wear Store</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="index_page.css">
+  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="cart.css">
+<link rel="stylesheet" href="SameProduct.css">
+
+
+</head>
+
+<body>
+  <header>
+    <section class="container-fluid hero_section px-0 px-md-3 px-xxl-5 ">
+      <div class="px-xxl-5 px-md-2 px-0 h-100  container-xxl">
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand" href="index_page.html"><img src="../website_image/site-logo.svg" alt=""></a>
+          <div class="collapse navbar-collapse ps-lg-3" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mt-2 mb-lg-0 ">
+              <li class="nav-item Hero_list "><a class="nav-link" aria-current="page" href="shop_all.html">shop all</a></li>
+              <li class="nav-item Hero_list "><a class="nav-link" href="men_page.html">men</a></li>
+              <li class="nav-item Hero_list "><a class="nav-link" href="women.html">women </a></li>
+              <li class="nav-item Hero_list "><a class="nav-link" href="packs&gear.html">packs & gear</a></li>
+              <li class="nav-item Hero_list "><a class="nav-link" href="top_deals.html">top deals</a></li>
+            </ul>
+          </div>
+          <div class="nav-icons d-flex align-items-center gap-sm-4 gap-2 ms-md-5 ms-lg-0 ps-md-5 ps-lg-0">
+            <span class="text-white fw-bold ps-md-5 ps-lg-0 ms-md-5 ms-lg-0" id="nav-total">$0.00</span>
+            <button class="btn position-relative p-0 border-0 bg-transparent" data-bs-toggle="offcanvas"
+              data-bs-target="#cartSidebar">
+
+              <i class="fa-solid fa-cart-shopping text-white"></i>
+
+              <span id="cart-count"
+                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-white"
+                style="color: black;">
+                0
+              </span>
+
+            </button>
+            <i class="fa-solid fa-circle-user text-white"></i>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </nav>
+        <div class="hero_content container d-flex align-items-center " style="height:80%;">
+          <div class="row w-100">
+            <div class="col-lg-6 col-md-10 col-sm-12 pe-lg-2">
+              <div class="hero_line mb-xl-5 mb-lg-3 mb-md-5 mb-sm-5 mb-4"></div>
+              <h1 class="hero_heading mb-lg-4 mb-md-4 mb-sm-4">
+                LET'S LEVEL UP <br>
+                YOUR GAME
+              </h1>
+
+              <p class="hero_paragraph mb-lg-5 mb-md-5 mb-sm-4 ">
+                Nam natoque in massa bibendum lacus, et arcu cursus nisl rutrum at tincidunt in sit in massa adipiscing
+                lorem fusce.
+              </p>
+              <button class="hero_button mt-lg-2 mb-lg-5 mb-md-5 mb-sm-5">
+                <a href="">shop now</a>
+
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+  <main style="background-color: #f7f7f7;" class="py-5 pb-lg-0">
+    <section class="Category_section container-xxl">
+      <div class="row gy-3 gx-3 py-5 px-2 px-xxl-5 px-lg-4">
+        <h4 class="text-uppercase category_heading pb-3 ">Shop by Category</h4>
+        <div class=" col-md-6 ">
+          <div class="image_one image"><a href=""><button>Clothing
+                <i class="fa-solid fa-arrow-right-long"></i></button></a></div>
+        </div>
+        <div class=" col-md-6 ">
+          <div class=" image_two image"><a href=""><button>Gear
+                <i class="fa-solid fa-arrow-right-long"></i></button></a></div>
+        </div>
+        <div class=" col-md-6 ">
+          <div class="image_three image "><a href=""><button>Shoes <i
+                  class="fa-solid fa-arrow-right-long"></i></button></a></div>
+        </div>
+        <div class=" col-md-6 ">
+          <div class="image_four image "><a href=""><button>Sports Style <i
+                  class="fa-solid fa-arrow-right-long"></i></button></a></div>
+        </div>
+      </div>
+    </section>
+    <section class=" mx-xxl-5 mx-lg-3 px-xxl-5 px-lg-3">
+      <div class=" mx-xxl-5 px-xxl-3 px-lg-1 my-4">
+        <div class="row gx-0 Category-div-second">
+          <div class="col-lg-4 col-md-4  column1 p-4">
+            <h2 class="pe-lg-4">Trending Sports Wear For</h2>
+          </div>
+          <div class="col-lg-4 col-md-4 column2">
+            <div class="pe-md-3 pe-lg-4"><a href="">
+                <div class="image1 second-sec-image"></div>
+                <h4 class="py-2 my-4">men</h4>
+              </a></div>
+          </div>
+          <div class="col-lg-4 col-md-4  column3">
+            <div class="ps-md-3 ps-lg-4 "><a href="">
+                <h4 class="py-2 my-4">women</h4>
+                <div class="image2 second-sec-image"></div>
+              </a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+    <section class="container-xxl card-section">
+      <div class="row gy-3 gx-3 py-5 px-2 px-xxl-5 px-lg-4" id="indexpage">
+        <div class="d-md-flex justify-content-between">
+          <h4 class="text-uppercase card_heading pb-md-3">the latest drop</h4>
+          <a href="#" class="text-decoration-none text-uppercase">shop all <i class="fa-solid fa-arrow-right-long"
+              style="color:  #fb5832;"></i></a>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <section class="Three-imageSection container-xxl">
+      <div class="row gx-0 py-5 mx-2 mx-lg-4 px-xxl-4 ">
+        <div class="col-md-7 fitness-sec-one">
+          <div class="row gx-0">
+            <div class="col-6 fitness-image one-image1"></div>
+            <div class="col-6 fitness-image one-image2"></div>
+          </div>
+        </div>
+        <div class="col-md-5 fitness-sec-two">
+          <div class="row gx-0">
+            <div class="col-xxl-12 fitness-image two-image p-lg-5 p-4">
+              <div
+                class="d-flex flex-column justify-content-md-end align-items-md-end gap-lg-4 gap-3 justify-content-center align-items-center ">
+                <h1>Fitness Ready</h1>
+                <p class="ps-md-4">Turpis pharetra amet nibh venenatis nibh nisl id urna, et porta vel, netus dui enim.
+                </p>
+                <button class="hero_button mt-lg-2"><a href="">shop now</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row gx-0 py-lg-3 mx-2 mx-lg-4 px-xxl-4">
+        <div class="col-12 street-ready p-lg-5 p-4">
+          <img src="../website_image/site-logo.svg" alt="" class="mb-lg-5 pb-3">
+          <h1 class="text-uppercase my-3">Street Ready </h1>
+          <p class="mb-lg-5 mb-md-0 mb-5">
+            Cras tristique neque vel justo ultricies faucibus. Mattis ut fermentum.
+          </p>
+          <button class="hero_button mt-5"><a href="">shop now</a></button>
+        </div>
+      </div>
+      <div class="mx-2 mx-lg-4 mx-xxl-5 py-3 my-5 adventure-ready">
+        <div class="row gx-0 my-lg-4 my-md-2 ms-lg-3">
+          <div class="col-lg-4 col-md-5 mx-xxl-4 mx-xl-3 mx-lg-2 mx-md-4 px-4 px-md-0 pb-4 pb-md-0 mb-2 mb-md-0">
+            <img src="../website_image/site-logo.svg" alt="" class="mb-lg-5 pb-lg-3 mb-md-3">
+            <h1 class="text-uppercase my-xl-3">adventure ready </h1>
+            <p class="mb-xl-1 mb-0 pb-xl-3 ">
+              Tristique neque vel justo ultricies faucibus. Nunc mattis tellus ut fermentum.
+            </p>
+            <button class="mt-md-5 mt-4"><a href="">shop collection</a></button>
+          </div>
+          <div class="col-lg-7 col-md-6 ms-lg-5 adventureimage">
+            <div class="row h-100 g-0">
+              <div class="col-6 adventure-image1"></div>
+              <div class="col-6 adventure-image2"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <section class="explore-collection container-xxl py-lg-5 my-md-1 py-4" style="text-align: center;">
+      <h4 class="pb-3 m-0">Explore Collection</h4>
+      <div class="row g-0 py-lg-3 mx-2 mx-lg-4 px-xxl-4 my-md-4 my-2">
+        <div class="col-md-3 col-6">
+          <div class="icon p-3 d-flex justify-content-center align-items-center"><a href="#"
+              class="text-decoration-none"><i class="pb-1 fa-solid fa-mask-face"> </i>
+              <p>face masks </p>
+            </a></div>
+        </div>
+        <div class="col-md-3 col-6">
+          <div class="icon p-3 d-flex justify-content-center align-items-center"><a href="#"
+              class="text-decoration-none"><i class="pb-1 fa-solid fa-shirt"> </i>
+              <p>apparel </p>
+            </a></div>
+        </div>
+        <div class="col-md-3 col-6">
+          <div class="icon p-3 d-flex justify-content-center align-items-center"><a href="#"
+              class="text-decoration-none"><i class="pb-1 fa-solid fa-suitcase"> </i>
+              <p>packs & gear</p>
+            </a></div>
+        </div>
+        <div class="col-md-3 col-6">
+          <div class="icon p-3 d-flex justify-content-center align-items-center"><a href="#"
+              class="text-decoration-none"><i class="pb-1 fa-solid fa-shoe-prints"> </i>
+              <p>footwear </p>
+            </a></div>
+        </div>
+        <div class="col-md-3 col-6">
+          <div class="icon p-3 d-flex justify-content-center align-items-center" style="background-color: #ffff;"><a
+              href="#" class="text-decoration-none"><i class="pb-1 fa-solid fa-bicycle"> </i>
+              <p>bicycle </p>
+            </a></div>
+        </div>
+        <div class="col-md-3 col-6">
+          <div class="icon p-3 d-flex justify-content-center align-items-center"><a href="#"
+              class="text-decoration-none"><i class="pb-1 fa-solid fa-person-hiking"> </i>
+              <p>equipment </p>
+            </a></div>
+        </div>
+        <div class="col-md-3 col-6">
+          <div class="icon p-3 d-flex justify-content-center align-items-center"><a href="#"
+              class="text-decoration-none"><i class="pb-1 fa-solid fa-vest"> </i>
+              <p>outwear </p>
+            </a></div>
+        </div>
+        <div class="col-md-3 col-6">
+          <div class="icon p-3 d-flex justify-content-center align-items-center"><a href="#"
+              class="text-decoration-none"><i class="pb-1 fa-solid fa-tent"> </i>
+              <p>tents </p>
+            </a></div>
+        </div>
+    </section>
+  </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- CART SIDEBAR -->
+  <div class="offcanvas offcanvas-end myCart" tabindex="-1" id="cartSidebar">
+
+    <div class="offcanvas-header border-bottom">
+      <h5 class="offcanvas-title px-1">Shopping Cart</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+    </div>
+
+    <div class="offcanvas-body" id="cart-items" style="color: #515151;">
+      
+    </div>
+    <div id="cart-button"> 
+</div>
+</div>
+
+
+
+
+
+
+
+
+<div class="modal fade" id="productModal">
+  <div class="modal-dialog modal-xl"> 
+    <div class="modal-content">
+      
+      <div class="modal-body ">
+          <div class="container g-0">
+            <button class="btn-close" data-bs-dismiss="modal"></button>
+            <div class="row justify-content-center">
+              <div class="col-lg-6" id="inner-SameImage">
+              </div>
+
+              <div class="col-lg-6 py-4 p-md-5" id="inner-Samecontent">
+              </div>
+
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <section class="subscribe-section py-lg-5 pt-md-3 pb-md-4 pb-2 px-4 ">
+    <div style="height: 100% ; text-align: center;"
+      class="d-flex flex-column align-items-md-center pt-5 pb-4 pt-md-5 pb-md-3 px-md-3 justify-content-between">
+      <h2 class="m-0">Be The First To Know</h2>
+      <p class="m-0">Lectus amet scelerisque fusce est venenatis, eget enim dolor amet vitae pharetra</p>
+      <div class="subscribe-button pt-4">
+        <input class="mt-2" type="email" placeholder="Email address">
+        <button class="mt-2"><a href="">subscribe</a></button>
+      </div>
+    </div>
+  </section>
+  <footer style="background-color: black; color: #ffff;" class="mt-5 mt-lg-0">
+    <div class="footer-container container-xxl pt-5 pt-sm-0 px-lg-5 pt-md-5 h-100">
+      <div class="row-1 row py-5 mx-2 g-0">
+        <div
+          class="column-1 col-md-3 d-flex flex-column justify-content-between align-items-center align-items-md-start ">
+          <div><img src="../website_image/site-logo.svg" alt=""></div>
+          <div>
+            <i class="mx-2 pe-md-3 ms-md-0 me-md-3 fa-brands fa-facebook" style="color: rgba(255, 255, 255, 1.00);"></i>
+            <i class="mx-2 pe-md-3 ms-md-0 me-md-3 fa-brands fa-square-twitter"
+              style="color: rgba(255, 255, 255, 1.00);"></i>
+            <i class="mx-2 pe-md-3 ms-md-0 me-md-3 fa-brands fa-youtube" style="color: rgba(255, 255, 255, 1.00);"></i>
+            <i class="mx-2 pe-md-3 ms-md-0 me-md-3 fa-brands fa-instagram"
+              style="color: rgba(246, 246, 245, 1.00);"></i>
+          </div>
+        </div>
+        <div
+          class="column-2 col-md-9 d-flex flex-column justify-content-between pe-md-5 align-items-center align-items-md-start">
+          <h6 class="me-lg-5 pe-lg-5">About Us</h6>
+          <p class="m-0 me-lg-5 pe-lg-5 p-0">Diam neque diam sed tincidunt lobortis facilisis massa eget scelerisque
+            tincidunt amet in blandit maecenas
+            egestas eu quam aenean odio urna facilisis integer tincidunt ut eu eu ultrices integer quisque vivamus felis
+            leo massa maecenas in et tempus nisl morbi euismod iaculis pellentesque urna vulputate suspendisse eget sit.
+          </p>
+        </div>
+      </div>
+      <div class="row-2 py-5 mx-2 d-flex flex-sm-row justify-content-sm-between flex-column align-items-center">
+        <div class="col-xs-12 col-sm-0 list-column pb-5 pb-sm-0">
+          <h2>Shop at SpartaX</h2>
+          <ul class="list-unstyled">
+            <li><a class="text-decoration-none" href="shop_all.html">Shop </a></li>
+            <li><a class="text-decoration-none" href="top_deals.html">Top Deals </a></li>
+            <li><a class="text-decoration-none" href="#">My account </a></li>
+            <li><a class="text-decoration-none" href="#">Return Policy</a></li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-0 list-column pb-5 pb-sm-0">
+          <h2>About SpartaX</h2>
+          <ul class="list-unstyled">
+            <li><a class="text-decoration-none" href="#">About</a></li>
+            <li><a class="text-decoration-none" href="#">SpartaX Taxa</a></li>
+            <li><a class="text-decoration-none" href="#">Press Rooma</a></li>
+            <li><a class="text-decoration-none" href="#">Careers</a></li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-0 list-column">
+          <h2>Get in Touch</h2>
+          <p class="mb-5">Bundesstraße 123, 456 Hamburg, Germany <br>
+            Call: +49-1234-56-7 <br>
+            mail@example.com
+
+          </p>
+        </div>
+      </div>
+      <div
+        class="row-3 row pt-5 py-lg-5 mx-sm-2 d-flex flex-sm-row justify-content-between align-sm-items-end flex-column align-items-center">
+        <div class="col-5">
+          <p class="m-0">Copyright © 2026 Sports Wear Store</p>
+        </div>
+        <div class="col-5 text-end">
+          <p class="m-0">Powered by Sports Wear Store</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="card.js"></script>
+  <script src="cart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,131 @@
+.checkout {
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    padding: 4rem 10rem;
+}
+
+.checkout .inner-checkout {
+    height: 100%;
+    background-color: #fff;
+    padding: 5rem 6rem;
+}
+
+.checkout .inner-checkout h3 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
+
+.checkout h5 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 800;
+    letter-spacing: -1px;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.btn-org {
+    background: #f76438;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 2rem;
+}
+
+.btn-org:hover {
+    background: #ff7d56;
+    color: #fff;
+}
+.order-box table tr th{
+    padding: 14px 12px 14px 0px;
+    color: #52505E;
+    font-family: 'Montserrat',sans-serif;
+}
+.order-box table tr td{
+    padding: 14px 12px 14px 0px;
+    text-transform: capitalize;
+    font-family: 'Montserrat',sans-serif;
+   color: #605f5f;
+}
+
+.order-box {
+    border: 2px solid #d9d9d9;
+    padding: 2rem;
+}
+.order-box table{
+    width: 100%;
+}
+.order-box div{
+    border-top: 2px solid black ;
+    padding: 1rem 2rem;
+    background-color: #f5f5f5;
+    margin: 2.5rem 0rem;
+}
+
+
+.error-text {
+    color: red;
+    font-size: 13px;
+}
+
+.error-text {
+    display: none;
+}
+
+.form-control:invalid:focus+.error-text {
+    display: block;
+}
+
+
+/* user ne field touch ki + empty / wrong */
+.form-control:focus:invalid {
+    border-color: red;
+
+}
+
+/* user ne sahi value dali */
+.form-control:focus:valid {
+    border-color: #ff7d56;
+}
+
+
+input:focus,
+input:focus-visible,
+select:focus,
+textarea:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    /* BOOTSTRAP ka blue glow */
+    border: 1px solid #ff7d56 !important;
+}
+
+.cat img {
+    width: 60px;
+}
+@media(max-width: 1024px){
+      .checkout{ background-color: #f5f5f5;
+    padding: 2rem;
+}
+
+.checkout .inner-checkout {
+    height: 100%;
+    background-color: #fff;
+    padding: 3rem;
+}
+
+}
+@media(max-width: 576px){
+      .checkout{ background-color: #f5f5f5;
+    padding: 0.5rem;
+}
+
+.checkout .inner-checkout {
+    height: 100%;
+    background-color: #fff;
+    padding: 0.5rem;
+}
+.order-box {
+    border: 2px solid #d9d9d9;
+    padding: 0.5rem;
+}
+}

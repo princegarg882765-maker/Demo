@@ -1,0 +1,90 @@
+.all-card h6{
+    font-family: 'Oswald',sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #131316;
+}
+.all-card del{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 800;
+    font-size: 0.9rem;
+    color: #9c9ba3;
+}
+.all-card .card-image {
+    overflow: hidden;
+}
+.all-card .card-image img:hover{
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.1);
+}
+.all-card .card-image .card-discount{
+    color: #9c9ba3;
+    font-size: 0.85rem;
+    padding: 0.2rem 0.7rem;
+    font-family: 'Montserrat',sans-serif;
+    background-color: #ffff;
+    box-shadow: 0px 3px 10px #52505E;
+    border-radius: 10rem;
+} 
+ .all-card .img-heading span{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 800;
+    font-size: 0.9rem;
+    color: #52505E;
+}
+#shopall-card a{
+   font-size: 0.85rem;
+   font-family: 'Montserrat',sans-serif;
+   color: #fb5832;
+   font-weight: 600;
+}
+.all-card .card-image:hover div button {
+   display: block;
+   border: none;
+}
+.all-card .card-image div button {
+    display: none;
+    padding: 6px;
+    position: absolute;
+    right:1rem;
+}
+.all-card .card-image div i{
+    color: #52505E;
+}
+.all-card .card-image div i:hover{
+    color: black;
+}
+.all-card .card-image div .icon1{
+    top:1rem;
+}
+.all-card .card-image div .icon2{
+    top:4.2rem
+}
+@media(max-width: 991px) {
+    .all-card h6{
+    font-size: 1.2rem;
+}
+.all-card del{
+    font-size: 0.8rem;
+}
+.all-card .card-image .card-discount{
+    font-size: 0.8rem;
+} 
+ .all-card .img-heading span{
+    font-size: 0.8rem;
+}
+#shopall-card a{
+   font-size: 0.8rem;
+}
+}
+@media(max-width:767px) {
+    .all-card h6{
+    font-size: 1rem;
+}
+.all-card del{
+    font-size: 0.6rem;
+}
+.all-card .card-image .card-discount{
+    font-size: 0.6rem;
+} 
+}

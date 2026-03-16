@@ -1,0 +1,200 @@
+.subscribe-section {
+    height: 52vh;
+}
+
+.subscribe-section h2 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+.subscribe-section p {
+    font-family: 'Montserrat', sans-serif;
+    color: #50525E;
+}
+
+.subscribe-section .subscribe-button {
+    height: 6rem;
+}
+
+.subscribe-section .subscribe-button input {
+    height: 3.5rem;
+    width: 27rem;
+    padding: 0.75rem;
+    border: 1px solid #13131614;
+    border-radius: 2px;
+    background-color: #f7f7f7;
+}
+.subscribe-section .subscribe-button input:focus{
+    outline: none ;
+    border: 1px dotted black;
+}
+
+.subscribe-section .subscribe-button button {
+    height: 3rem;
+    width: 10.8rem;
+    border-radius: 2rem;
+    border: none;
+    background-color: #f75936;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.subscribe-section .subscribe-button a {
+    text-decoration: none;
+    color: #ffff;
+}
+footer{
+    height: 45rem;
+}
+.footer-container .row-1 .column-2 h6{
+    font-family: 'Oswald',sans-serif;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.footer-container .row-1{
+    height: 15rem;
+}
+.footer-container .row-1 .column-2 p{
+     padding-right: 8rem;
+     font-family: 'Montserrat',sans-serif;
+     line-height: 1.6rem;
+     color: #f7f7f7;
+}
+.footer-container .row-2 .list-column h2{
+    font-size: 1.4rem;
+    font-family: 'Oswald',sans-serif;
+    text-transform: uppercase;    
+}
+.footer-container .row-2 .list-column a{
+    font-size: 1rem;
+    font-family: 'Montserrat',sans-serif;
+    color: #f7f7f7;
+}
+.footer-container .row-2 .list-column p{
+    font-family: 'Montserrat',sans-serif;
+}
+.row-3{
+    height: 8rem;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 0.88rem;
+    color: #888698;
+}
+@media(max-width:991px) {
+    
+    .subscribe-section {
+        height: 30vh;
+    }
+
+    .subscribe-section h2 {
+        font-size: 2.5rem;
+    }
+
+    .subscribe-section p {
+        font-size: 0.95rem;
+    }
+
+    .subscribe-section .subscribe-button button a {
+        font-size: 0.95rem;
+    }
+
+    .footer-container .row-1 .column-2 h6{
+    font-size: 0.8rem;
+     }
+    .footer-container .row-1 .column-2 p{
+         padding-right: 1.5rem;
+         font-size: 0.95rem;
+    }
+    .footer-container .row-2 .list-column a{
+        font-size: 0.95rem;
+    }
+    .footer-container .row-2 .list-column p{
+        font-size: 0.95rem;
+    }
+    footer{
+    height: 45rem;
+}
+}
+@media(max-width:767px) {
+     .subscribe-section {
+        height: 35vh;
+    }
+
+    .subscribe-section .subscribe-button input {
+        height: 3rem;
+        width: 28rem;
+    }
+
+    .subscribe-section .subscribe-button button {
+        height: 2.8rem;
+        width: 28rem;
+    }
+    .footer-container .row-1 {
+        height: 19rem;
+    }
+    .row-3{
+    height: 10rem;
+}
+    .footer-container .row-1 .column-2 p{
+          padding-right:0%;
+          text-align: center;
+    }
+    footer{
+    height: 46rem;
+}
+}
+@media(max-width:576px) {
+    .subscribe-section {
+        height: 40vh;
+    }
+
+     .subscribe-section h2 {
+        font-size: 2rem;
+    }
+
+    .subscribe-section p {
+        font-size: 0.9rem;
+    }
+
+    .subscribe-section .subscribe-button button a {
+        font-size: 0.8rem;
+    }
+
+    .subscribe-section .subscribe-button input {
+        height: 2.5rem;
+        width: 100%;
+    }
+
+    .subscribe-section .subscribe-button button {
+        height: 2.2rem;
+        width: 100%;
+    }
+    .footer-container .row-1 .column-2 h6{
+    font-size: 0.75rem;
+     }
+    .footer-container .row-1 .column-2 p{
+         font-size: 0.9rem;
+    }
+    .footer-container .row-2 .list-column a{
+        font-size: 0.9rem;
+    }
+    .footer-container .row-2 .list-column p{
+        font-size: 0.9rem;
+    }
+    .row-3{
+    height: 8.5rem;
+    font-size: 0.82rem;
+    }
+    footer{
+        height: 75rem;
+    }
+    .footer-container .row-1 {
+        height: 20.5rem;
+    }
+    .list-column h2,.list-column li ,.list-column p,.row-3 div p ,.row-3 div{
+        padding: 0%;
+        text-align: center;
+    }
+}

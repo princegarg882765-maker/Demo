@@ -1,0 +1,713 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+::selection {
+    background-color: #fb5832;
+    color: #131316;
+    font-weight: 600;
+}
+
+.Hero_list a {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: white;
+}
+.Hero_list{
+ padding: 0rem 0.5rem;
+}
+.hero_section {
+    position: relative;
+    height: 100vh;
+    background-image: url("../website_image/sports-hero-img.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.hero_section::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.35);
+    /* lite black */
+}
+
+.hero_content {
+    color: white;
+    height: calc(90%);
+    position: absolute;
+    z-index: 10;
+}
+
+.hero_line {
+    height: 0.25rem;
+    width: 5rem;
+    background-color: white;
+}
+
+.hero_heading {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.hero_paragraph {
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero_button {
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffff;
+    text-transform: uppercase;
+    border-radius: 4rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+    height: 3rem;
+    width: 10rem;
+}
+
+.hero_button a {
+    text-decoration: none;
+    color: #131316;
+
+}
+
+.navbar-toggler {
+    background-color: #fb5832 !important;
+    font-size: none !important;
+    padding: 0.4rem 0.4rem;
+}
+.navbar-toggler-icon{
+  filter:invert(1);
+}
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+.navbar {
+    padding: 0.8rem 0.8rem;
+}
+.nav-link:hover {
+    color: #fb5732cc;
+}
+
+.category_heading {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 1.35rem;
+}
+
+.image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 2rem;
+}
+
+.image button {
+    position: absolute;
+    left: 2.4rem;
+    bottom: 2.5rem;
+    height: 3rem;
+    border: none;
+    border-radius: 20rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.9rem;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffff;
+}
+
+.image_one button {
+    width: 10.5rem;
+}
+
+.image_two button {
+    width: 8rem;
+}
+
+.image_three button {
+    width: 8.7rem;
+}
+
+.image_four button {
+    width: 13rem;
+}
+
+.image_one {
+    background-image: url("../website_image/sports-wear-store-category-img-1.jpg");
+    ;
+}
+
+.image_two {
+    background-image: url("../website_image/sports-wear-store-category-img-2.jpg");
+}
+
+.image_three {
+    background-image: url("../website_image/sports-wear-store-category-img-3.jpg");
+}
+
+.image_four {
+    background-image: url("../website_image/sports-wear-store-category-img-4.jpg");
+}
+
+.Category-div-second {
+    background-color: #131316;
+    color: #ffff;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+.Category-div-second a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+.Category-div-second h2 {
+    font-size: 3rem;
+    line-height: 4rem;
+}
+
+.Category-div-second div h4 {
+    font-size: 2rem;
+}
+
+.Category-div-second .second-sec-image {
+    height: 30rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.Category-div-second .image1 {
+    background-image: url("../website_image/sports-wear-store-more-category-img-1.jpg");
+}
+
+.Category-div-second .image2 {
+    background-image: url("../website_image/sports-wear-store-more-category-img-2.jpg");
+}
+
+.two-image div {
+    height: 100%;
+    text-align: right;
+}
+ 
+.card-section .card_heading{
+    font-family: 'Oswald',sans-serif;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+.all-card h6{
+    font-family: 'Oswald',sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #131316;
+}
+.all-card del{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 800;
+    font-size: 0.9rem;
+    color: #9c9ba3;
+}
+.all-card .card-image .card-discount{
+    color: #9c9ba3;
+    font-size: 0.85rem;
+    padding: 0.2rem 0.7rem;
+    font-family: 'Montserrat',sans-serif;
+    background-color: #ffff;
+    box-shadow: 0px 3px 10px #52505E;
+    border-radius: 10rem;
+} 
+ .all-card .img-heading span{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 800;
+    font-size: 0.9rem;
+    color: #52505E;
+}
+#indexpage a{
+   font-size: 0.85rem;
+   font-family: 'Montserrat',sans-serif;
+   color: #fb5832;
+   font-weight: 600;
+}
+.all-card .card-image:hover div button {
+   display: block;
+   border: none;
+}
+.all-card .card-image div button {
+    display: none;
+    padding: 6px;
+    position: absolute;
+    right:1rem;
+}
+.all-card .card-image div i{
+    color: #52505E;
+}
+.all-card .card-image div i:hover{
+    color: black;
+}
+.all-card .card-image div .icon1{
+    top:1rem;
+}
+.all-card .card-image div .icon2{
+    top:4.2rem
+}
+
+.fitness-sec-one .one-image1 {
+    background-image: url("../website_image/sports-wear-store-banner-img-1.jpg");
+}
+
+.fitness-sec-one .one-image2 {
+    background-image: url("../website_image/sports-wear-store-banner-img-2.jpg");
+}
+
+.fitness-sec-two .two-image {
+    background-image: url("../website_image/sports-wear-store-banner-bg-img1.jpg");
+    color: #ffff;
+}
+
+.fitness-sec-two .two-image h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.fitness-sec-two .two-image p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+}
+
+.street-ready {
+    background: linear-gradient(to right, rgba(3, 47, 95, 0.4), transparent),
+        url("../website_image/sports-wear-store-banner-bg-img-2.jpg") center /cover no-repeat;
+    height: 30rem;
+    font-weight: 700;
+    color: #ffff;
+}
+
+.street-ready img,
+.adventure-ready img {
+    height: 3.5rem;
+    width: 7.5rem;
+}
+
+.street-ready h1,
+.adventure-ready h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+}
+
+.street-ready p,
+.adventure-ready p {
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    max-width: 20rem;
+    line-height: 1.5rem;
+}
+
+.adventure-ready p {
+    max-width: 25rem;
+}
+
+.adventure-ready {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url("../website_image/sports-wear-store-collection-bg-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #ffff;
+    height: 30rem;
+    font-weight: 700;
+}
+
+.adventure-ready button {
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffff;
+    text-transform: uppercase;
+    border-radius: 4rem;
+    font-weight: 600;
+    font-size: 0.95rem;
+    height: 3rem;
+    width: 13.5rem;
+}
+
+.adventure-ready a {
+    text-decoration: none;
+    color: #131316;
+}
+
+.adventure-ready .adventure-image1 {
+    background: url("../website_image/sports-wear-store-collection-img-1.jpg");
+    background-repeat: no-repeat;
+}
+
+.adventure-ready .adventure-image2 {
+
+    background: url("../website_image/sports-wear-store-collection-img-2.jpg");
+    background-repeat: no-repeat;
+}
+
+.explore-collection .icon {
+    height: 18rem;
+}
+
+.explore-collection .icon i {
+    font-size: 4.5rem;
+    color: #f75936;
+    transition: 0.3s;
+}
+
+.explore-collection .icon i:hover {
+    transform: translatey(8%);
+}
+
+.explore-collection h4,
+.explore-collection p {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.explore-collection h4 {
+    font-size: 1.4rem;
+}
+
+.explore-collection p {
+    font-size: 2rem;
+    color: #131316;
+}
+@media(max-width:1600px) {
+    .hero_heading {
+        font-size: 4.5rem;
+        line-height: 7rem;
+    }
+
+    .hero_line {
+        margin-top: 3rem;
+    }
+
+    .Hero_list .nav-link {
+        padding: 0rem 0.8rem !important;
+    }
+
+    .hero_paragraph {
+        padding-right: 8rem;
+    }
+
+    .image {
+        height: 37rem;
+    }
+
+    .fitness-image {
+        height: 30rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@media(max-width:991px) {
+    .image {
+        height: 25rem;
+    }
+
+    .Category-div-second .second-sec-image {
+        height: 23.6rem;
+    }
+
+    .fitness-image {
+        height: 18rem;
+    }
+
+    .fitness-sec-two .two-image h1 {
+        font-size: 2.5rem;
+    }
+
+    .street-ready,
+    .adventure-ready {
+        height: 21rem;
+
+    }
+
+    .street-ready h1,
+    .adventure-ready h1 {
+        font-size: 2.5rem;
+    }
+
+    .adventure-ready .adventure-image1 {
+        background-size: cover;
+    }
+
+    .adventure-ready .adventure-image2 {
+        background-size: cover;
+    }
+
+    .explore-collection .icon {
+        height: 12.5rem;
+    }
+
+    .explore-collection .icon i {
+        font-size: 3rem;
+    }
+
+    .explore-collection h4 {
+        font-size: 1.25rem;
+    }
+
+    .explore-collection p {
+        font-weight: 500;
+        font-size: 1.9rem;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.all-card h6{
+    font-size: 1.2rem;
+}
+.all-card del{
+    font-size: 0.8rem;
+}
+.all-card .card-image .card-discount{
+    font-size: 0.8rem;
+} 
+ .all-card .img-heading span{
+    font-size: 0.8rem;
+}
+#indexpage a{
+   font-size: 0.8rem;
+}
+
+}
+
+@media(max-width:767px) {
+    .hero_heading {
+        font-size: 4rem;
+        line-height: 6rem;
+    }
+
+    .image {
+        height: 13rem;
+    }
+
+    .image button {
+        left: 2rem;
+        bottom: 1.8rem;
+    }
+
+    .Category-div-second .second-sec-image {
+        height: 40rem;
+        background-size: contain;
+    }
+
+    .Category-div-second h2 {
+        font-size: 2.5rem;
+
+    }
+
+    .Category-div-second div h4 {
+        font-size: 1.6rem;
+    }
+
+    .Category-div-second .image2 {
+        margin-bottom: 2rem;
+    }
+
+    .fitness-sec-one .fitness-image {
+        height: 25rem;
+    }
+
+    .fitness-sec-two .fitness-image {
+        height: 15rem;
+    }
+
+    .two-image div {
+        text-align: center;
+    }
+
+    .fitness-sec-two .two-image {
+        background-image: url("../website_image/sports-wear-store-banner-bg-img.jpg");
+    }
+
+    .fitness-sec-two .two-image h1 {
+        font-size: 2.5rem;
+    }
+
+    .street-ready {
+        height: 25rem;
+        text-align: center;
+    }
+
+    .street-ready p,
+    .adventure-ready p {
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .adventure-ready {
+        background-image: url("../website_image/sports-wear-store-collection-bg-img-combine2.jpg.png");
+        height: 45rem;
+        text-align: center;
+    }
+
+    .adventure-ready .adventureimage {
+        height: 24rem;
+    }
+
+    .adventure-ready button {
+        font-size: 0.9rem;
+        height: 2.8rem;
+        width: 13.4rem;
+    }
+
+    .explore-collection .icon {
+        height: 7rem;
+    }
+
+    .explore-collection .icon i {
+        font-size: 2rem;
+    }
+
+    .explore-collection p {
+        font-size: 1.65rem;
+    }
+    .all-card h6{
+    font-size: 1rem;
+}
+.all-card del{
+    font-size: 0.6rem;
+}
+.all-card .card-image .card-discount{
+    font-size: 0.6rem;
+} 
+}
+
+@media(max-width:576px) {
+    .hero_heading {
+        font-size: 3rem;
+        line-height: 4rem;
+        margin-bottom: 2rem;
+    }
+
+    .hero_line {
+        margin-bottom: 3rem;
+        height: 0.2rem;
+        width: 3rem;
+    }
+
+    .hero_paragraph {
+        margin-bottom: 4.5rem;
+    }
+
+    .hero_section {
+        height: 85vh;
+    }
+
+    .navbar-nav {
+        text-align: right;
+    }
+
+    .nav-item a {
+        padding: 0px 0px;
+    }
+
+    .Category-div-second .second-sec-image {
+        height: 32rem;
+        background-size: contain;
+    }
+
+    .Category-div-second h2 {
+        font-size: 2rem;
+
+    }
+
+    .Category-div-second div h4 {
+        font-size: 1.4rem;
+    }
+
+    .Category-div-second .image2 {
+        margin-bottom: 1rem;
+    }
+
+    .fitness-sec-one .fitness-image {
+        height: 18rem;
+    }
+
+    .fitness-sec-two .fitness-image {
+        height: 15rem;
+    }
+
+    .two-image div {
+        text-align: center;
+    }
+
+    .fitness-sec-two .two-image {
+        background-image: url("../website_image/sports-wear-store-banner-bg-img.jpg");
+    }
+
+    .fitness-sec-two .two-image h1 {
+        font-size: 2.5rem;
+    }
+
+    .street-ready h1,
+    .adventure-ready h1 {
+        font-size: 2rem;
+    }
+
+    .street-ready p,
+    .adventure-ready p {
+        font-size: 0.9rem;
+    }
+
+    .adventure-ready {
+        height: 35rem;
+    }
+
+    .adventure-ready .adventureimage {
+        height: 16rem;
+    }
+
+    .explore-collection .icon i {
+        font-size: 1.5rem;
+    }
+
+    .explore-collection p {
+        font-size: 1rem;
+    }
+}
+@media(max-width:375px) {
+    .hero_heading {
+        font-size: 2.6rem;
+        line-height: 3.8rem;
+    }
+    .hero_paragraph {
+        margin-bottom: 3rem;
+    }
+    .navbar-toggler-icon{
+  filter:invert(1);
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+}
+     
